@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: "Helvetica Neue";
+}
+
+.body1 {
+  background-image: url("../assets/LandingPageBg.png");
+  height: 100vh;
+}
+
+.add_resume {
+  border: 1px solid #1a1a1a;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  color: white;
+  padding: 18px 126px;
+  top: 50%;
+  left: 50%;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: "Helvetica Neue";
+}
+
+.add_resume:hover {
+  cursor: pointer;
+}
+
+.redberry_logo {
+  width: 236px;
+  height: 38px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.line {
+  height: 0px;
+  top: 89px;
+
+  border: 1px solid #1a1a1a;
+}
+
+nav {
+  margin-left: 70px;
+  margin-right: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.button_container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url(../HelveticaNeueGEO.ttf);
+}

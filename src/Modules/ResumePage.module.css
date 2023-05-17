@@ -1,0 +1,232 @@
+.body2 {
+  background: #f9f9f9;
+  height: 1080px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0px;
+  margin: 0px;
+}
+
+.body2 span {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.resume_display {
+  background-image: url("../assets/Resume.png");
+  width: 822px;
+  display: flex;
+}
+
+.back_btn {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 48px;
+  top: 45px;
+}
+
+.back_btn:hover {
+  cursor: pointer;
+}
+
+.resume_form {
+  margin-left: 149px;
+  margin-top: 47px;
+  padding-right: 150px;
+  margin-bottom: 65px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.form_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1a1a1a;
+  border-bottom: 3px solid #1a1a1a;
+  padding-bottom: 12px;
+}
+
+.form_body_1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.surname {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.surname input {
+  width: 371px;
+  height: 48px;
+  border: 1px solid #bcbcbc;
+  border-radius: 4px;
+}
+
+.name input {
+  width: 371px;
+  height: 48px;
+  border: 1px solid #bcbcbc;
+  border-radius: 4px;
+}
+
+.file_btn {
+  width: 107px;
+  height: 27px;
+  font-family: "Helvetica Neue";
+  color: white;
+  background-color: #0e80bf;
+  border-radius: 4px;
+}
+
+.file_btn:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  background-color: white;
+  color: #0e80bf;
+}
+
+.upload_div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutMe textarea {
+  width: 800px;
+  height: 100px;
+  border: 1px solid #bcbcbc;
+  border-radius: 4px;
+  resize: none;
+}
+
+.contact_info {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.contact_info input {
+  width: 798px;
+  height: 48px;
+  border: 1px solid #bcbcbc;
+  border-radius: 4px;
+}
+
+.next_page_btn {
+  display: flex;
+  justify-content: end;
+}
+
+.next_page_btn button {
+  background: #6b40e3;
+  border-radius: 4px;
+  width: 151px;
+  height: 48px;
+  align-items: center;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+  font-family: "Helvetica Neue";
+}
+
+.next_page_btn button:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  background-color: white;
+  color: #6b40e3;
+}
+
+.resume_container {
+  display: flex;
+  margin-left: 80px;
+  height: 322px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.resume_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.resume_container img {
+  width: 17px;
+  height: 17px;
+  margin-right: 5px;
+}
+
+.resume_container .profile_image {
+  width: 246px;
+  height: 246px;
+  border-radius: 133px;
+  margin-top: 48px;
+}
+
+.name_surname_info {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.email_info {
+  font-size: 18px;
+  line-height: 21px;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+}
+
+.number_info {
+  font-size: 18px;
+  line-height: 21px;
+  color: #1a1a1a;
+  margin-bottom: 34px;
+}
+
+.aboutMe_info {
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 15px;
+}
+
+.resume_info h2 {
+  font-size: 18px;
+  line-height: 22px;
+  color: #f93b1d;
+  margin: 0;
+}
+
+.resume_info h1 {
+  color: #f93b1d;
+  font-size: 34px;
+  line-height: 42px;
+  margin-bottom: 17px;
+}
+
+.aboutMe_info {
+  width: 432px;
+}
