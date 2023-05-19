@@ -39,7 +39,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 30px;
 }
 
 .form_header {
@@ -59,28 +58,14 @@
   justify-content: space-between;
 }
 
-.name {
+.short_field {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 8px;
 }
 
-.surname {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 8px;
-}
-
-.surname input {
-  width: 371px;
-  height: 48px;
-  border: 1px solid #bcbcbc;
-  border-radius: 4px;
-}
-
-.name input {
+.short_field input {
   width: 371px;
   height: 48px;
   border: 1px solid #bcbcbc;
@@ -110,12 +95,13 @@
   gap: 20px;
 }
 
-.aboutMe {
+.about_me_field {
   display: flex;
   flex-direction: column;
+  gap: 8px;
 }
 
-.aboutMe textarea {
+.about_me_input {
   width: 800px;
   height: 100px;
   border: 1px solid #bcbcbc;
@@ -123,26 +109,48 @@
   resize: none;
 }
 
-.contact_info {
+.description_field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-bottom: 58px;
+  border-bottom: 1px solid #c1c1c1;
+}
+
+.description_input {
+  width: 798px;
+  height: 123px;
+  border: 1px solid #bcbcbc;
+  border-radius: 4px;
+  resize: none;
+}
+
+.long_field {
   display: flex;
   flex-direction: column;
   font-size: 16px;
   line-height: 21px;
+  gap: 8px;
 }
 
-.contact_info input {
+.long_field input {
   width: 798px;
   height: 48px;
   border: 1px solid #bcbcbc;
   border-radius: 4px;
 }
 
-.next_page_btn {
+.page_btns_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page_btn {
   display: flex;
   justify-content: end;
 }
 
-.next_page_btn button {
+.page_btn button {
   background: #6b40e3;
   border-radius: 4px;
   width: 151px;
@@ -154,7 +162,7 @@
   font-family: "Helvetica Neue";
 }
 
-.next_page_btn button:hover {
+.page_btn button:hover {
   cursor: pointer;
   transition: 0.5s;
   background-color: white;
@@ -211,6 +219,7 @@
   font-size: 16px;
   line-height: 22px;
   margin-top: 15px;
+  width: 432px;
 }
 
 .resume_info h2 {
@@ -227,6 +236,19 @@
   margin-bottom: 17px;
 }
 
-.aboutMe_info {
-  width: 432px;
+.add_experience_btn button {
+  width: 289px;
+  height: 48px;
+  align-items: center;
+  background: #62a1eb;
+  border-radius: 4px;
+  color: white;
+  font-family: "Helvetica Neue";
+}
+
+.add_experience_btn button:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  background-color: white;
+  color: #6b40e3;
 }

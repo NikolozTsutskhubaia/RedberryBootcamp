@@ -22,7 +22,9 @@ body {
 }
 
 .add_resume:hover {
+  transition: 0.5s;
   cursor: pointer;
+  background: #6b40e3;
 }
 
 .redberry_logo {
