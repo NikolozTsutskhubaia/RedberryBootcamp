@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import classes from "../Modules/ResumePage.module.css";
 import BackBtn from "../assets/BackBtn.png";
@@ -6,6 +6,7 @@ import MailIcon from "../assets/MailIcon.png";
 import NumberIcon from "../assets/NumberIcon.png";
 import PersonalInfoComponent from "../Components/PersonalInfoComponent";
 import ExperienceComponent from "../Components/ExperienceComponent";
+import EducationComponent from "../Components/EducationComponent";
 
 const ResumePage = () => {
   const [data, setData] = useState({});
@@ -24,6 +25,7 @@ const ResumePage = () => {
       </Link>
       {currentComponent == "A" && <PersonalInfoComponent setters={setters} />}
       {currentComponent == "B" && <ExperienceComponent setters={setters} />}
+      {currentComponent == "C" && <EducationComponent setters = {setters}/>}
       <div className={classes.resume_display}>
         {isVisible && (
           <div className={classes.resume_container}>

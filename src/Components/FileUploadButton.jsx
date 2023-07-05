@@ -1,5 +1,6 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import classes from "../Modules/ResumePage.module.css";
+
 
 const FileUploadButton = ({ onFileSelect }) => {
   const fileInputRef = useRef(null);

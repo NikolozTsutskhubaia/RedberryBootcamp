@@ -1,4 +1,4 @@
-import React from "react";
+
 import { useRef } from "react";
 import FileUploadButton from "../Components/FileUploadButton";
 import classes from "../Modules/ResumePage.module.css";
@@ -36,7 +36,6 @@ const PersonalInfoComponent = (props) => {
     props.setters.setData(info);
     props.setters.setIsVisible(true);
     props.setters.setCurrentComponent("B");
-    console.log(data);
 
     nameRef.current.value = "";
     surnameRef.current.value = "";
@@ -47,7 +46,7 @@ const PersonalInfoComponent = (props) => {
   };
 
   return (
-    <div className={classes.resume_form}>
+    <div className={classes.personal_info_form}>
       <div className={classes.form_header}>
         პირადი ინფო
         <span>1/3</span>
